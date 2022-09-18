@@ -1,0 +1,55 @@
+body{
+  color:white;
+  background-color: #000;
+}
+
+.movie-app{
+  margin-top:50px
+}
+
+.movie-app > .row{
+  overflow: auto;
+  flex-wrap: nowrap;
+}
+
+img{
+  margin-top:20px;
+  width: 150px;
+  height: 100%;
+}
+
+.img-container{
+  width: auto;
+  transition: transform 0.2s;
+}
+
+.main-container{
+    width: auto;
+}
+
+.img-container:hover{
+  cursor: pointer;
+  transform: scale(1.1)
+}
+
+
+.detail-container{
+  margin-top: 100px;
+  color:white;
+  margin-left: 100px;
+}
+
+h1{
+  color:lightblue
+}
+
+h3{
+  color:lightcoral
+}
+p{
+  color:lightgoldenrodyellow
+}
+#detail{
+  text-align: center;
+  padding-top: 20px;
+}
