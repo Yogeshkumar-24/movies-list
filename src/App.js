@@ -35,7 +35,7 @@ function App() {
         <SearchBox searchValue={searchValue} setSearchValue ={setSearchValue}/>
 
         </div>
-        <div className='row ml-3 mr-3' >
+        <div className='row ml-6 mr-3' >
         {movies.map((movie,index) => 
            <div className=' img-container'>
             <img  

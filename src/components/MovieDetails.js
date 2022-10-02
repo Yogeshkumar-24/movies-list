@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css'
 const MovieDetails = (props) => {
-    console.log(props.movie)
+    // console.log(props.movie)
     return (
         <div id='detail' style={Boolean(props.movie) ? {display: "block"}
         : {display: "none"}    
